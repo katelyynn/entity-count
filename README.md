@@ -1,6 +1,6 @@
 ## entity-count
 
-entity counter for minecraft 1.18, run function `ec:count` and view the results on the scoreboard display.
+entity counter for minecraft 1.18, run function `count:count` and view the results on the scoreboard display.
 
 ---
 
