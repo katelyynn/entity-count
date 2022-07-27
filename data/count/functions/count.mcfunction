@@ -1,9 +1,11 @@
-# ec count
-# frontfacing, ran by user
+# EC count
+## frontfacing, ran by user
 
 
-# clear all objectives
-scoreboard players reset @a ec
+# remove old scoreboard
+## clears old entries
+scoreboard objectives remove ec
+scoreboard objectives add ec dummy {"text":"Entity Count","color":"green","bold":true}
 
 # display scoreboard
 scoreboard objectives setdisplay sidebar ec
@@ -123,7 +125,9 @@ execute as @e[type=zombified_piglin] run scoreboard players add zombified_piglin
 
 execute as @e[type=!player] run scoreboard players add total ec 1
 
-# https://www.digminecraft.com/lists/entity_list_pc.php
+## originally based on https://www.digminecraft.com/lists/entity_list_pc.php
 
 # announce
-tellraw @s ["",{"text":"Done! ","color":"green"},{"text":"Counted "},{"score":{"name":"total","objective":"ec"},"color":"green"},{"text":" entities in the world."}]
+tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"✔","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Counted ","color":"yellow"},{"score":{"name":"total","objective":"ec"},"color":"gold"},{"text":" entities currently loaded.","color":"yellow"}]
+# sfx
+playsound block.note_block.pling player @s

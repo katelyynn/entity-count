@@ -3,4 +3,7 @@
 
 scoreboard objectives remove ec
 
-tellraw @s {"text":"Successfully removed ec-related scoreboards - reloading will re-install.","color":"green"}
+# announce
+tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"✔","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Successfully uninstalled, you can now either disable or remove the datapack.","color":"yellow"}]
+# sfx
+playsound block.note_block.pling player @s
