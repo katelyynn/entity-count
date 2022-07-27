@@ -11,6 +11,7 @@ scoreboard objectives add ec dummy {"text":"Entity Count","color":"green","bold"
 scoreboard objectives setdisplay sidebar ec
 
 # for all entities
+execute as @e[type=allay] run scoreboard players add allay ec 1
 execute as @e[type=area_effect_cloud] run scoreboard players add area_affect_cloud ec 1
 execute as @e[type=armor_stand] run scoreboard players add armor_stand ec 1
 execute as @e[type=arrow] run scoreboard players add arrow ec 1
@@ -21,6 +22,7 @@ execute as @e[type=blaze] run scoreboard players add blaze ec 1
 execute as @e[type=boat] run scoreboard players add boat ec 1
 execute as @e[type=cat] run scoreboard players add cat ec 1
 execute as @e[type=cave_spider] run scoreboard players add cave_spider ec 1
+execute as @e[type=chest_boat] run scoreboard players add chest_boat ec 1
 execute as @e[type=chest_minecart] run scoreboard players add chest_minecart ec 1
 execute as @e[type=chicken] run scoreboard players add chicken ec 1
 execute as @e[type=cod] run scoreboard players add cod ec 1
@@ -48,6 +50,7 @@ execute as @e[type=fireball] run scoreboard players add fireball ec 1
 execute as @e[type=firework_rocket] run scoreboard players add firework_rocket ec 1
 execute as @e[type=fox] run scoreboard players add fox ec 1
 execute as @e[type=furnace_minecart] run scoreboard players add furnace_minecart ec 1
+execute as @e[type=frog] run scoreboard players add frog ec 1
 execute as @e[type=ghast] run scoreboard players add ghast ec 1
 execute as @e[type=giant] run scoreboard players add giant ec 1
 execute as @e[type=glow_item_frame] run scoreboard players add glow_item_frame ec 1
@@ -102,6 +105,7 @@ execute as @e[type=spider] run scoreboard players add spider ec 1
 execute as @e[type=squid] run scoreboard players add squid ec 1
 execute as @e[type=stray] run scoreboard players add stray ec 1
 execute as @e[type=strider] run scoreboard players add strider ec 1
+execute as @e[type=tadpole] run scoreboard players add tadpole ec 1
 execute as @e[type=tnt] run scoreboard players add tnt ec 1
 execute as @e[type=tnt_minecart] run scoreboard players add tnt_minecart ec 1
 execute as @e[type=trader_llama] run scoreboard players add trader_llama ec 1
@@ -112,6 +116,7 @@ execute as @e[type=vex] run scoreboard players add vex ec 1
 execute as @e[type=villager] run scoreboard players add villager ec 1
 execute as @e[type=vindicator] run scoreboard players add vindicator ec 1
 execute as @e[type=wandering_trader] run scoreboard players add wandering_trader ec 1
+execute as @e[type=warden] run scoreboard players add warden ec 1
 execute as @e[type=witch] run scoreboard players add witch ec 1
 execute as @e[type=wither] run scoreboard players add wither ec 1
 execute as @e[type=wither_skeleton] run scoreboard players add wither_skeleton ec 1
