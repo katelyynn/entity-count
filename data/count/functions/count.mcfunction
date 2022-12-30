@@ -137,4 +137,4 @@ execute as @e[type=!player] run scoreboard players add total ec 1
 # announce
 tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"✔","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Counted ","color":"yellow"},{"score":{"name":"total","objective":"ec"},"color":"gold"},{"text":" entities currently loaded.","color":"yellow"}]
 # sfx
-playsound block.note_block.pling player @s
+playsound minecraft:entity.arrow.hit_player player @s
