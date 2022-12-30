@@ -5,7 +5,7 @@
 
 tag @s add ec_log
 
-execute as @e run tellraw @a[tag=ec_log] ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"gold","bold":true},{"text":"] ","color":"dark_gray"},"x",{"nbt":"Pos[0]","entity":"@s"}," y",{"nbt":"Pos[1]","entity":"@s"}," z",{"nbt":"Pos[2]","entity":"@s"},": ",{"selector":"@s"}," hp",{"nbt":"Health","entity":"@s"}]
+execute as @e run tellraw @a[tag=ec_log] ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"gold","bold":true},{"text":"] ","color":"dark_gray"},{"nbt":"Pos[0]","entity":"@s"}," ",{"nbt":"Pos[1]","entity":"@s"}," ",{"nbt":"Pos[2]","entity":"@s"},": ",{"selector":"@s"}," ",{"nbt":"Health","entity":"@s"}," HP"]
 
 tag @s remove ec_log
 
