@@ -1,9 +1,9 @@
-# ec uninstall
+# entity count uninstall
 
 
 scoreboard objectives remove ec
 
 # announce
-tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"✔","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Successfully uninstalled, you can now either disable or remove the datapack.","color":"yellow"}]
+tellraw @s [{"text":"\nkate's entity counter","color":"#89DCEB"},{"text":" • successfully uninstalled - you can now disable or remove this datapack/mod","color":"gray"}]
 # sfx
 playsound block.note_block.pling player @s
