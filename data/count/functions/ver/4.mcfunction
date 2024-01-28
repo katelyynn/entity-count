@@ -1,0 +1,7 @@
+execute store result score cat ec if entity @e[type=cat]
+execute store result score fox ec if entity @e[type=fox]
+execute store result score panda ec if entity @e[type=panda]
+execute store result score pillager ec if entity @e[type=pillager]
+execute store result score ravager ec if entity @e[type=ravager]
+execute store result score trader_llama ec if entity @e[type=trader_llama]
+execute store result score wandering_trader ec if entity @e[type=wandering_trader]

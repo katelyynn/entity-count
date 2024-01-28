@@ -1,0 +1,6 @@
+execute store result score evoker ec if entity @e[type=evoker]
+execute store result score evoker_fangs ec if entity @e[type=evoker_fangs]
+execute store result score vindicator ec if entity @e[type=vindicator]
+execute store result score vex ec if entity @e[type=vex]
+execute store result score llama ec if entity @e[type=llama]
+execute store result score llama_spit ec if entity @e[type=llama_spit]

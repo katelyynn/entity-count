@@ -1,0 +1,5 @@
+execute store result score axolotl ec if entity @e[type=axolotl]
+execute store result score glow_item_frame ec if entity @e[type=glow_item_frame]
+execute store result score glow_squid ec if entity @e[type=glow_squid]
+execute store result score goat ec if entity @e[type=goat]
+execute store result score marker ec if entity @e[type=marker]

@@ -1,0 +1,1 @@
+execute store result score armadillo ec if entity @e[type=armadillo]
