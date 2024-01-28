@@ -127,6 +127,12 @@ execute store result score zombie ec if entity @e[type=zombie]
 execute store result score zombie_horse ec if entity @e[type=zombie_horse]
 execute store result score zombie_villager ec if entity @e[type=zombie_villager]
 execute store result score zombified_piglin ec if entity @e[type=zombified_piglin]
+execute store result score block_display ec if entity @e[type=block_display]
+execute store result score item_display ec if entity @e[type=item_display]
+execute store result score text_display ec if entity @e[type=text_display]
+execute store result score camel ec if entity @e[type=camel]
+execute store result score sniffer ec if entity @e[type=sniffer]
+execute store result score armadillo ec if entity @e[type=armadillo]
 
 ## generated via gen.html
 
