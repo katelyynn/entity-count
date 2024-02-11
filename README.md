@@ -6,4 +6,4 @@ entity counter for minecraft 1.13+, run function `count:count` and view the resu
 
 ---
 
-written with pain and agony by [me](https://plexion.dev/me), entity list based on [digminecraft](https://www.digminecraft.com/lists/entity_list_pc.php)
+entity list originally based on [digminecraft](https://www.digminecraft.com/lists/entity_list_pc.php)
